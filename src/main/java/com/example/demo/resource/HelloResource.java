@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Zul Qarnain on 1/3/2018.
  */
 @RestController
-@RequestMapping("/rest/docker/hello")
+@RequestMapping("")
 public class HelloResource {
     @GetMapping
     public String hello(){
-        return "hello Youtube";
+        return "  youtube";
     }
 }
